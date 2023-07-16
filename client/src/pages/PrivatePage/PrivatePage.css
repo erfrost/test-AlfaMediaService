@@ -47,6 +47,7 @@
     color: rgb(33, 33, 33);
 }
 .info-value {
+    flex-grow: 1;
     color: rgba(33, 33, 33, 0.5);
 }
 .error-status {
