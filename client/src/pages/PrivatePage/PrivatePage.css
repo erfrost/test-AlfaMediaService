@@ -1,0 +1,58 @@
+.PrivatePage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    padding: 50px;
+}
+.notice-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn {
+    align-self: flex-end;
+    padding: 10px 35px;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    background-color: rgb(33, 33, 33);
+    color: white;
+    border-radius: 9px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.btn:hover {
+    background-color: rgb(55, 55, 55);
+}
+.user-info {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 50px;
+    box-shadow: 15px 15px 80px 0px rgba(191, 191, 191, 0.60);
+    border-radius: 9px;
+}
+.user-info-df {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+.user-info {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: rgb(33, 33, 33);
+}
+.info-value {
+    color: rgba(33, 33, 33, 0.5);
+}
+.error-status {
+    font-size: 124px;
+    font-family: 'Poppins', sans-serif;
+}
+.error-message {
+    font-size: 38px;
+}
